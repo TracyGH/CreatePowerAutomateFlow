@@ -23,7 +23,8 @@ This is a C# console application sample using the [Power Automate Web API](https
 10. The auth functionality is borrowed from [Jim Daly's sample](https://github.com/microsoft/PowerApps-Samples/tree/master/cds/webapi/C%23/ADALV3WhoAmI/ADALV3WhoAmI). It's a great way to get started quickly, but should not be used to access sensitive/production data. 
 11. The [GET request](https://docs.microsoft.com/en-us/power-automate/web-api#update-a-cloud-flow) for a single flow seems to fail intermittently. I have reported the behavior [here](https://stackoverflow.com/questions/68627818/power-automate-web-api-get-failing-intermittently).
 12. The ```CreateFlow``` method makes two different API calls. The first (POST) actually creates the flow and the second (PATCH) updates the ```statecode``` property to 1. This seems to be necessary and the flow will not function in the UI without such an update. 
-13. When the sample is finished, press any key to exit.
+13.  I have only been able to programmatically create/access flows within the Default Solution for a relevant [Dataverse environment](https://docs.microsoft.com/en-us/learn/modules/create-manage-environments/). Microsoft does not mention this limitation in the [web API documentation](https://docs.microsoft.com/en-us/power-automate/web-api) and I am uncertain of the scalability/performance implications.
+14. When the sample is finished, press any key to exit.
 
 ## What this sample does
 * The ```CreateFlow``` method creates a Power Automate flow in the Solutions tab and then updates its ```statecode``` property to 1.
