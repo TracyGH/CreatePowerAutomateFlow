@@ -1,6 +1,5 @@
 ﻿# Create Power Automate Flows Programmatically
-
-This is a C# console application sample using the [Power Automate Web API](https://docs.microsoft.com/en-us/power-automate/web-api) to programmatically read/write Power Automate flows. 
+A C# console application sample using the [Power Automate Web API](https://docs.microsoft.com/en-us/power-automate/web-api) to programmatically read/write Power Automate flows. 
 
 ## Quick How-To
 1. Download or clone the repo so that you have a local copy.
