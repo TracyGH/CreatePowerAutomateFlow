@@ -4,7 +4,7 @@ A C# console application sample using the [Power Automate Web API](https://docs.
 ## Quick How-To
 1. Download or clone the repo so that you have a local copy.
 1. Open the sample solution in Visual Studio
-2. Review [this article](https://techcommunity.microsoft.com/t5/blogs/blogworkflowpage/blog-id/Microsoft365PnPBlog/article-id/395) for guidance on interacting with API flows
+2. Review [this article](https://techcommunity.microsoft.com/t5/microsoft-365-pnp-blog/create-and-retrieve-power-automate-flows-with-code/ba-p/2600551) for guidance on interacting with API flows
 3. Replace the variable on line #17 with your Dataverse environment URL
     ### Retrieve a Flow
     1. Uncomment the ```RetrieveFlow``` method call on line #40
